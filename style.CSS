@@ -1,0 +1,208 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #fff8d6, #ffe59a);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 600px;
+}
+
+.tarjeta {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px 25px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 35px rgba(150, 110, 0, 0.2);
+    border: 2px solid #f9d65c;
+}
+
+.decoracion {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #d99b00;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.introduccion {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.ramo {
+    position: relative;
+    height: 230px;
+    margin: 10px auto;
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flor {
+    position: absolute;
+    font-size: 75px;
+    filter: drop-shadow(0 5px 3px rgba(0,0,0,0.15));
+    animation: flotar 3s ease-in-out infinite;
+}
+
+.flor1 {
+    top: 10px;
+    left: 25px;
+    animation-delay: 0s;
+}
+
+.flor2 {
+    top: 0;
+    left: 125px;
+    animation-delay: 0.5s;
+}
+
+.flor3 {
+    top: 20px;
+    right: 20px;
+    animation-delay: 1s;
+}
+
+.flor4 {
+    top: 85px;
+    left: 75px;
+    animation-delay: 1.5s;
+}
+
+.flor5 {
+    top: 85px;
+    right: 70px;
+    animation-delay: 2s;
+}
+
+.envoltura {
+    position: absolute;
+    bottom: 0;
+    font-size: 65px;
+}
+
+@keyframes flotar {
+    0%, 100% {
+        transform: translateY(0) rotate(-3deg);
+    }
+
+    50% {
+        transform: translateY(-8px) rotate(3deg);
+    }
+}
+
+.mensaje {
+    color: #555;
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin: 20px 0;
+}
+
+button {
+    background: #f5b900;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 8px;
+}
+
+button:hover {
+    background: #d99b00;
+    transform: scale(1.04);
+}
+
+.oculto {
+    display: none;
+}
+
+#mensajeEspecial {
+    background: #fff8d6;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #f5d46a;
+    animation: aparecer 0.8s ease;
+}
+
+#mensajeEspecial h2 {
+    color: #d99b00;
+    margin-bottom: 12px;
+}
+
+#mensajeEspecial p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.firma {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.whatsapp {
+    background: #25D366;
+    margin-top: 20px;
+}
+
+.whatsapp:hover {
+    background: #128C7E;
+}
+
+.pie {
+    color: #999;
+    font-size: 0.85rem;
+    margin-top: 20px;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .tarjeta {
+        padding: 25px 15px;
+    }
+
+    .flor {
+        font-size: 60px;
+    }
+
+    .ramo {
+        height: 200px;
+    }
+}
