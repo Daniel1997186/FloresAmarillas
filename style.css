@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -169,6 +169,9 @@ button:hover {
 
 .whatsapp:hover {
     background: #128C7E;
+}
+body {
+    font-family: 'Parisienne', cursive;
 }
 
 .pie {
