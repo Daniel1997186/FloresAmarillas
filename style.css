@@ -95,9 +95,9 @@ h1 {
 }
 
 .envoltura {
-   top: 85px;
+   top: 20px;
     right: 70px;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 
 @keyframes flotar {
