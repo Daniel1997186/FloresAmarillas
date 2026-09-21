@@ -96,10 +96,11 @@ h1 {
 
 .envoltura {
  
+    position: absolute;
     font-size: 75px;
-    left: 10%;
+    left: 50%;
     top: 145px;
-    transform: translateX(-50%);
+    margin-left: -37.5px;
     filter: drop-shadow(0 5px 3px rgba(0,0,0,0.15));
     animation: flotar 3s ease-in-out infinite;
 }
