@@ -99,7 +99,7 @@ h1 {
     position: absolute;
     font-size: 75px;
     left: 50%;
-    top: 145px;
+    top: 100px;
     margin-left: -37.5px;
     filter: drop-shadow(0 5px 3px rgba(0,0,0,0.15));
     animation: flotar 3s ease-in-out infinite;
