@@ -95,11 +95,13 @@ h1 {
 }
 
 .envoltura {
-   font-size: 80px;
-    position: absolute;
+  position: absolute;
+    font-size: 75px;
     left: 50%;
+    top: 145px;
     transform: translateX(-50%);
-    margin-top: 50px;
+    filter: drop-shadow(0 5px 3px rgba(0,0,0,0.15));
+    animation: flotar 3s ease-in-out infinite;
 }
 
 @keyframes flotar {
