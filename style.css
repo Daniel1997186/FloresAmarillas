@@ -95,9 +95,11 @@ h1 {
 }
 
 .envoltura {
-   top: 20px;
-    right: 70px;
-    animation-delay: 1s;
+   font-size: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
 }
 
 @keyframes flotar {
