@@ -95,9 +95,9 @@ h1 {
 }
 
 .envoltura {
-    position: absolute;
-    bottom: 0;
-    font-size: 65px;
+   top: 85px;
+    right: 70px;
+    animation-delay: 2s;
 }
 
 @keyframes flotar {
@@ -163,13 +163,7 @@ button:hover {
     margin-top: 15px;
 }
 
-.whatsapp {
-    background: #25D366;
-    margin-top: 20px;
-}
 
-.whatsapp:hover {
-    background: #128C7E;
 }
 
 
