@@ -1,7 +1,7 @@
 
 const botonMensaje = document.getElementById("botonMensaje");
 const mensajeEspecial = document.getElementById("mensajeEspecial");
-const botonWhatsApp = document.getElementById("botonWhatsApp");
+
 
 // Mostrar mensaje especial
 botonMensaje.addEventListener("click", function() {
