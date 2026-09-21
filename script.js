@@ -16,19 +16,15 @@ botonMensaje.addEventListener("click", function() {
 
 });
 
-// Compartir por WhatsApp
-botonWhatsApp.addEventListener("click", function() {
 
-    const mensaje = `🌻 Hola, preciosa 💛
 
-Hoy quiero regalarte estas flores amarillas como un pequeño detalle para recordarte lo especial que eres.
 
-Que nunca te falten motivos para sonreír y momentos bonitos.
+const parametros = new URLSearchParams(window.location.search);
+const nombre = parametros.get("nombre");
 
-Con cariño, Daniel 💛`;
+if (nombre) {
+    document.getElementById("nombre").textContent = nombre;
+}
 
-    const enlace = "https://wa.me/?text=" + encodeURIComponent(mensaje);
 
-    window.open(enlace, "_blank");
 
-});
