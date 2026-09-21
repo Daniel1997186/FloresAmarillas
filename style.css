@@ -205,4 +205,8 @@ button:hover {
     .ramo {
         height: 200px;
     }
+        .envoltura {
+        font-size: 60px;
+        top: 135px;
+    }
 }
